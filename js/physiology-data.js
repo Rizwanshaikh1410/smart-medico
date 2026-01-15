@@ -7,7 +7,7 @@ window.physiologyQuestions = [
         content: "Describe in detail all phases of the cardiac cycle including atrial systole, ventricular systole (isovolumetric contraction, rapid ejection, reduced ejection), and ventricular diastole (isovolumetric relaxation, rapid filling, reduced filling, atrial systole). Include pressure changes in atria, ventricles, and aorta with corresponding volume changes and heart sounds.",
         marks: 15,
         image: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        pdfUrl: "https://drive.google.com/file/d/1physio-cardiac-cycle-15marks/view",
+        pdfUrl: "https://drive.google.com/file/d/1xYQdyF-04rXD8OUqG32ImvCMP4fv9b9Z/view?usp=drive_link",
         tags: ["cardiovascular", "heart", "cycle", "pressure", "sounds"],
         system: "cardiovascular",
         difficulty: "high"
@@ -18,7 +18,7 @@ window.physiologyQuestions = [
         content: "Explain the countercurrent multiplier system in the loop of Henle and countercurrent exchanger in vasa recta. Describe how these mechanisms create and maintain the medullary concentration gradient for urine concentration. Include role of ADH and urea recycling.",
         marks: 15,
         image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        pdfUrl: "https://drive.google.com/file/d/1physio-renal-countercurrent-15marks/view",
+        pdfUrl: "https://drive.google.com/file/d/1xYQdyF-04rXD8OUqG32ImvCMP4fv9b9Z/view?usp=drive_link",
         tags: ["renal", "kidney", "countercurrent", "urine", "concentration"],
         system: "renal",
         difficulty: "high"
