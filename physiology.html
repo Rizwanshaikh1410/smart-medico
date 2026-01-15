@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physiology Questions - Smart Medico</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo-container">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-heartbeat medical-icon"></i>
+                    <span class="logo-text">Smart Medico</span>
+                </a>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="anatomy.html" class="nav-link">Anatomy</a>
+                </li>
+                <li class="nav-item">
+                    <a href="physiology.html" class="nav-link active">Physiology</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+            </ul>
+            
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header physiology-header">
+        <div class="container">
+            <h1 class="page-title">Physiology Questions</h1>
+            <p class="page-subtitle">Master body functions through structured question-based learning with detailed explanations</p>
+            
+            <!-- Search Bar -->
+            <div class="search-container">
+                <div class="search-box">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="searchInput" class="search-input" placeholder="Search physiology questions (e.g., cardiac cycle, respiration, renal function...)">
+                    <button id="clearSearch" class="clear-search" title="Clear search">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="search-info">
+                    <span id="searchResults">Showing all 25 physiology questions</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-container">
+                <h3>Filter by:</h3>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Questions</button>
+                    <button class="filter-btn" data-filter="2">2 Marks</button>
+                    <button class="filter-btn" data-filter="5">5 Marks</button>
+                    <button class="filter-btn" data-filter="10">10 Marks</button>
+                    <button class="filter-btn" data-filter="15">15 Marks</button>
+                    <button class="filter-btn" data-filter="system">By System</button>
+                </div>
+                
+                <!-- System Filter Dropdown -->
+                <div class="system-filter" id="systemFilter" style="display: none; margin-top: 15px;">
+                    <select id="systemSelect" class="system-select">
+                        <option value="all">All Systems</option>
+                        <option value="cardiovascular">Cardiovascular</option>
+                        <option value="respiratory">Respiratory</option>
+                        <option value="renal">Renal</option>
+                        <option value="gastrointestinal">Gastrointestinal</option>
+                        <option value="endocrine">Endocrine</option>
+                        <option value="neurophysiology">Neurophysiology</option>
+                        <option value="muscle">Muscle Physiology</option>
+                        <option value="blood">Blood & Immunology</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Questions Grid -->
+    <section class="questions-section">
+        <div class="container">
+            <div class="questions-container">
+                <div id="questionsGrid" class="questions-grid">
+                    <!-- Questions will be loaded here by JavaScript -->
+                </div>
+                
+                <!-- Statistics -->
+                <div class="stats-container">
+                    <div class="stats-card">
+                        <i class="fas fa-brain"></i>
+                        <h3>25+ Questions</h3>
+                        <p>Covering all physiology systems</p>
+                    </div>
+                    <div class="stats-card">
+                        <i class="fas fa-file-pdf"></i>
+                        <h3>Detailed PDFs</h3>
+                        <p>With diagrams & explanations</p>
+                    </div>
+                    <div class="stats-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Progressive Learning</h3>
+                        <p>From 2 marks to 15 marks</p>
+                    </div>
+                </div>
+                
+                <!-- Pagination -->
+                <div class="pagination-container">
+                    <div id="pagination" class="pagination">
+                        <!-- Pagination buttons will be generated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Systems Overview -->
+    <section class="systems-section">
+        <div class="container">
+            <h2 class="section-title">Physiology Systems</h2>
+            <p class="section-subtitle">Explore questions by physiological systems</p>
+            
+            <div class="systems-grid">
+                <div class="system-card" data-system="cardiovascular">
+                    <div class="system-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Cardiovascular</h3>
+                    <p>Heart function, circulation, blood pressure regulation</p>
+                    <span class="question-count">8 Questions</span>
+                </div>
+                
+                <div class="system-card" data-system="respiratory">
+                    <div class="system-icon">
+                        <i class="fas fa-lungs"></i>
+                    </div>
+                    <h3>Respiratory</h3>
+                    <p>Breathing mechanics, gas exchange, regulation</p>
+                    <span class="question-count">6 Questions</span>
+                </div>
+                
+                <div class="system-card" data-system="renal">
+                    <div class="system-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>Renal</h3>
+                    <p>Kidney function, urine formation, fluid balance</p>
+                    <span class="question-count">5 Questions</span>
+                </div>
+                
+                <div class="system-card" data-system="gastrointestinal">
+                    <div class="system-icon">
+                        <i class="fas fa-stomach"></i>
+                    </div>
+                    <h3>Gastrointestinal</h3>
+                    <p>Digestion, absorption, motility, secretions</p>
+                    <span class="question-count">7 Questions</span>
+                </div>
+                
+                <div class="system-card" data-system="endocrine">
+                    <div class="system-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3>Endocrine</h3>
+                    <p>Hormones, feedback mechanisms, regulation</p>
+                    <span class="question-count">6 Questions</span>
+                </div>
+                
+                <div class="system-card" data-system="neurophysiology">
+                    <div class="system-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Neurophysiology</h3>
+                    <p>Nerve conduction, synapses, sensory systems</p>
+                    <span class="question-count">8 Questions</span>
+                </div>
+                
+                <div class="system-card" data-system="muscle">
+                    <div class="system-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Muscle Physiology</h3>
+                    <p>Contraction, excitation, muscle types</p>
+                    <span class="question-count">5 Questions</span>
+                </div>
+                
+                <div class="system-card" data-system="blood">
+                    <div class="system-icon">
+                        <i class="fas fa-vial"></i>
+                    </div>
+                    <h3>Blood & Immunology</h3>
+                    <p>Hemostasis, immunity, blood components</p>
+                    <span class="question-count">4 Questions</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html" class="logo">
+                        <i class="fas fa-heartbeat medical-icon"></i>
+                        <span class="logo-text">Smart Medico</span>
+                    </a>
+                    <p class="footer-description">
+                        A comprehensive platform for medical students to master Physiology through evidence-based question learning with detailed explanations and diagrams.
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="anatomy.html">Anatomy</a></li>
+                        <li><a href="physiology.html">Physiology</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-subjects">
+                    <h3>Physiology Topics</h3>
+                    <ul>
+                        <li>Cardiovascular System</li>
+                        <li>Respiratory Physiology</li>
+                        <li>Renal Function</li>
+                        <li>Gastrointestinal System</li>
+                        <li>Endocrinology</li>
+                        <li>Neurophysiology</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Study Resources</h3>
+                    <ul>
+                        <li>Question Bank</li>
+                        <li>PDF Explanations</li>
+                        <li>Clinical Correlations</li>
+                        <li>Diagrams & Charts</li>
+                        <li>MCQ Practice</li>
+                        <li>Revision Notes</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">
+                    &copy; <span id="currentYear"></span> Smart Medico. All rights reserved.
+                </p>
+                <p class="disclaimer">
+                    For educational purposes only. This platform is designed to supplement medical education. 
+                    Always consult current medical textbooks and guidelines for clinical practice.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/physiology-search.js"></script>
+    <script src="js/physiology-data.js"></script>
+    <script>
+        // Initialize current year
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

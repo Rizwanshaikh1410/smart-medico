@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anatomy Questions - Smart Medico</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/anatomy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo-container">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-bone medical-icon"></i>
+                    <span class="logo-text">Smart Medico</span>
+                </a>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="anatomy.html" class="nav-link active">Anatomy</a>
+                </li>
+                <li class="nav-item">
+                    <a href="physiology.html" class="nav-link">Physiology</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+            </ul>
+            
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header anatomy-header">
+        <div class="container">
+            <h1 class="page-title">Anatomy Questions</h1>
+            <p class="page-subtitle">Master human structure through structured question-based learning with detailed diagrams</p>
+            
+            <!-- Search Bar -->
+            <div class="search-container">
+                <div class="search-box">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="searchInput" class="search-input" placeholder="Search anatomy questions (e.g., brachial plexus, heart anatomy, cranial nerves...)">
+                    <button id="clearSearch" class="clear-search" title="Clear search">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="search-info">
+                    <span id="searchResults">Showing all 30 anatomy questions</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-container">
+                <h3>Filter by:</h3>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Questions</button>
+                    <button class="filter-btn" data-filter="2">2 Marks</button>
+                    <button class="filter-btn" data-filter="5">5 Marks</button>
+                    <button class="filter-btn" data-filter="10">10 Marks</button>
+                    <button class="filter-btn" data-filter="15">15 Marks</button>
+                    <button class="filter-btn" data-filter="region">By Region</button>
+                </div>
+                
+                <!-- Region Filter Dropdown -->
+                <div class="region-filter" id="regionFilter" style="display: none; margin-top: 15px;">
+                    <select id="regionSelect" class="region-select">
+                        <option value="all">All Regions</option>
+                        <option value="upperlimb">Upper Limb</option>
+                        <option value="lowerlimb">Lower Limb</option>
+                        <option value="thorax">Thorax</option>
+                        <option value="abdomen">Abdomen & Pelvis</option>
+                        <option value="headneck">Head & Neck</option>
+                        <option value="neuroanatomy">Neuroanatomy</option>
+                        <option value="embryology">Embryology</option>
+                        <option value="histology">Histology</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Questions Grid -->
+    <section class="questions-section">
+        <div class="container">
+            <div class="questions-container">
+                <div id="questionsGrid" class="questions-grid">
+                    <!-- Questions will be loaded here by JavaScript -->
+                </div>
+                
+                <!-- Statistics -->
+                <div class="stats-container">
+                    <div class="stats-card">
+                        <i class="fas fa-skeleton"></i>
+                        <h3>30+ Questions</h3>
+                        <p>Covering all anatomical regions</p>
+                    </div>
+                    <div class="stats-card">
+                        <i class="fas fa-file-pdf"></i>
+                        <h3>Detailed PDFs</h3>
+                        <p>With labeled diagrams</p>
+                    </div>
+                    <div class="stats-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Progressive Learning</h3>
+                        <p>From 2 marks to 15 marks</p>
+                    </div>
+                </div>
+                
+                <!-- Pagination -->
+                <div class="pagination-container">
+                    <div id="pagination" class="pagination">
+                        <!-- Pagination buttons will be generated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Regions Overview -->
+    <section class="regions-section">
+        <div class="container">
+            <h2 class="section-title">Anatomical Regions</h2>
+            <p class="section-subtitle">Explore questions by anatomical regions</p>
+            
+            <div class="regions-grid">
+                <div class="region-card" data-region="upperlimb">
+                    <div class="region-icon">
+                        <i class="fas fa-hand-paper"></i>
+                    </div>
+                    <h3>Upper Limb</h3>
+                    <p>Shoulder, arm, forearm, hand anatomy</p>
+                    <span class="question-count">7 Questions</span>
+                </div>
+                
+                <div class="region-card" data-region="lowerlimb">
+                    <div class="region-icon">
+                        <i class="fas fa-walking"></i>
+                    </div>
+                    <h3>Lower Limb</h3>
+                    <p>Hip, thigh, leg, foot anatomy</p>
+                    <span class="question-count">6 Questions</span>
+                </div>
+                
+                <div class="region-card" data-region="thorax">
+                    <div class="region-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Thorax</h3>
+                    <p>Heart, lungs, mediastinum, chest wall</p>
+                    <span class="question-count">5 Questions</span>
+                </div>
+                
+                <div class="region-card" data-region="abdomen">
+                    <div class="region-icon">
+                        <i class="fas fa-stomach"></i>
+                    </div>
+                    <h3>Abdomen & Pelvis</h3>
+                    <p>GI organs, urogenital, peritoneal relations</p>
+                    <span class="question-count">8 Questions</span>
+                </div>
+                
+                <div class="region-card" data-region="headneck">
+                    <div class="region-icon">
+                        <i class="fas fa-head-side-brain"></i>
+                    </div>
+                    <h3>Head & Neck</h3>
+                    <p>Skull, face, neck triangles, cranial nerves</p>
+                    <span class="question-count">9 Questions</span>
+                </div>
+                
+                <div class="region-card" data-region="neuroanatomy">
+                    <div class="region-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Neuroanatomy</h3>
+                    <p>Brain, spinal cord, meninges, pathways</p>
+                    <span class="question-count">7 Questions</span>
+                </div>
+                
+                <div class="region-card" data-region="embryology">
+                    <div class="region-icon">
+                        <i class="fas fa-baby"></i>
+                    </div>
+                    <h3>Embryology</h3>
+                    <p>Development of organs and systems</p>
+                    <span class="question-count">4 Questions</span>
+                </div>
+                
+                <div class="region-card" data-region="histology">
+                    <div class="region-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3>Histology</h3>
+                    <p>Microscopic structure of tissues</p>
+                    <span class="question-count">3 Questions</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Study Tips -->
+    <section class="tips-section">
+        <div class="container">
+            <h2 class="section-title">Anatomy Study Tips</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <h3>Use 3D Models</h3>
+                    <p>Visualize structures in three dimensions for better spatial understanding.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-draw-polygon"></i>
+                    </div>
+                    <h3>Draw Diagrams</h3>
+                    <p>Drawing structures helps reinforce memory and understanding.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-book-medical"></i>
+                    </div>
+                    <h3>Clinical Correlations</h3>
+                    <p>Relate anatomical knowledge to clinical conditions and procedures.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-memory"></i>
+                    </div>
+                    <h3>Mnemonics</h3>
+                    <p>Use memory aids for complex structures and relationships.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html" class="logo">
+                        <i class="fas fa-bone medical-icon"></i>
+                        <span class="logo-text">Smart Medico</span>
+                    </a>
+                    <p class="footer-description">
+                        A comprehensive platform for medical students to master Anatomy through evidence-based question learning with detailed diagrams and explanations.
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="anatomy.html">Anatomy</a></li>
+                        <li><a href="physiology.html">Physiology</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-subjects">
+                    <h3>Anatomy Topics</h3>
+                    <ul>
+                        <li>Gross Anatomy</li>
+                        <li>Neuroanatomy</li>
+                        <li>Embryology</li>
+                        <li>Histology</li>
+                        <li>Surface Anatomy</li>
+                        <li>Clinical Anatomy</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Study Resources</h3>
+                    <ul>
+                        <li>Question Bank</li>
+                        <li>Labeled Diagrams</li>
+                        <li>Clinical Cases</li>
+                        <li>3D Models</li>
+                        <li>Revision Notes</li>
+                        <li>Viva Questions</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">
+                    &copy; <span id="currentYear"></span> Smart Medico. All rights reserved.
+                </p>
+                <p class="disclaimer">
+                    For educational purposes only. This platform is designed to supplement medical education. 
+                    Always consult current anatomy textbooks and atlases for detailed study.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/anatomy-search.js"></script>
+    <script src="js/anatomy-data.js"></script>
+    <script>
+        // Initialize current year
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
