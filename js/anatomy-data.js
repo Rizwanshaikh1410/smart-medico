@@ -57,8 +57,8 @@ window.anatomyQuestions = [
     content:
       "Anatomical snuff box is bounded laterally by abductor pollicis longus and extensor pollicis brevis, and medially by extensor pollicis longus.",
     marks: 2,
-    image: "/assets/images/q5.jpg",
-    pdfUrl: "/assets/pdfs/q5.pdf",
+    image: "/assets/images/Q5. Boundaries of anatomical snuff box.jpg",
+    pdfUrl: "/assets/pdfs/2-Number-Questions/Q5-Boundaries of anatomical snuff box.pdf",
     tags: ["hand", "thumb", "surface anatomy"],
     region: "upperlimb",
     difficulty: "basic"
@@ -70,8 +70,8 @@ window.anatomyQuestions = [
     content:
       "Hamstring muscles include semitendinosus, semimembranosus, and long head of biceps femoris which extend hip and flex knee joint.",
     marks: 2,
-    image: "/assets/images/q6.jpg",
-    pdfUrl: "/assets/pdfs/q6.pdf",
+    image: "/assets/images/Q6. Hamstring muscles..jpg",
+    pdfUrl: "/assets/pdfs/2-Number-Questions/Q6-Hamstring muscles.pdf",
     tags: ["lowerlimb", "thigh", "muscles"],
     region: "lowerlimb",
     difficulty: "basic"
@@ -83,8 +83,8 @@ window.anatomyQuestions = [
     content:
       "Quadriceps femoris consists of rectus femoris, vastus lateralis, vastus medialis, and vastus intermedius which extend the knee joint.",
     marks: 2,
-    image: "/assets/images/q7.jpg",
-    pdfUrl: "/assets/pdfs/q7.pdf",
+    image: "/assets/images/Q7. Muscles of quadriceps femoris..jpg",
+    pdfUrl: "/assets/pdfs/2-Number-Questions/Q7-Muscles of quadriceps femoris.pdf",
     tags: ["lowerlimb", "thigh", "knee"],
     region: "lowerlimb",
     difficulty: "basic"
@@ -96,8 +96,8 @@ window.anatomyQuestions = [
     content:
       "Popliteal fossa is bounded superolaterally by biceps femoris, superomedially by semimembranosus, and inferiorly by heads of gastrocnemius.",
     marks: 2,
-    image: "/assets/images/q8.jpg",
-    pdfUrl: "/assets/pdfs/q8.pdf",
+    image: "/assets/images/Q8. Boundaries of popliteal fossa..jpg",
+    pdfUrl: "/assets/pdfs/2-Number-Questions/Q8-Boundaries of popliteal fossa.pdf",
     tags: ["knee", "popliteal fossa"],
     region: "lowerlimb",
     difficulty: "basic"
@@ -109,8 +109,8 @@ window.anatomyQuestions = [
     content:
       "Tendo calcaneus is a strong tendon formed by gastrocnemius and soleus muscles and is inserted into calcaneus.",
     marks: 2,
-    image: "/assets/images/q9.jpg",
-    pdfUrl: "/assets/pdfs/q9.pdf",
+    image: "/assets/images/Q9. Tendo calcaneus..jpg",
+    pdfUrl: "/assets/pdfs/2-Number-Questions/Q9-Tendo calcaneus.pdf",
     tags: ["ankle", "tendon"],
     region: "lowerlimb",
     difficulty: "basic"
@@ -122,8 +122,8 @@ window.anatomyQuestions = [
     content:
       "Bicipital aponeurosis is a fibrous expansion of biceps brachii tendon that blends with deep fascia of forearm.",
     marks: 2,
-    image: "/assets/images/q10.jpg",
-    pdfUrl: "/assets/pdfs/q10.pdf",
+    image: "/assets/images/Q10. Bicipital aponeurosis..jpg",
+    pdfUrl: "/assets/pdfs/2-Number-Questions/Q10. Bicipital aponeurosis.pdf",
     tags: ["arm", "fascia"],
     region: "upperlimb",
     difficulty: "basic"
