@@ -135,8 +135,8 @@ window.anatomyQuestions = [
     content:
       "Synapses are of two types: chemical synapse where transmission occurs by neurotransmitters, and electrical synapse where impulses pass directly through gap junctions.",
     marks: 2,
-    image: "/assets/images/q11.jpg",
-    pdfUrl: "/assets/pdfs/q11.pdf",
+    image: "/assets/images/Q11. Types of synapses..jpg",
+    pdfUrl: "/assets/pdfs/2-Number-Questions/Q11. Types of synapses..pdf",
     tags: ["neuro", "synapse"],
     region: "neuroanatomy",
     difficulty: "basic"
@@ -148,8 +148,8 @@ window.anatomyQuestions = [
     content:
       "Second part of axillary artery gives thoracoacromial artery supplying pectoral region and lateral thoracic artery supplying lateral chest wall.",
     marks: 2,
-    image: "/assets/images/q12.jpg",
-    pdfUrl: "/assets/pdfs/q12.pdf",
+    image: "/assets/images/Q12. Branches of second part of axillary artery.jpg",
+    pdfUrl: "/assets/pdfs/2-Number-Questions/Q12. Branches of second part of axillary artery..pdf",
     tags: ["artery", "axilla"],
     region: "upperlimb",
     difficulty: "basic"
@@ -161,8 +161,8 @@ window.anatomyQuestions = [
     content:
       "A long bone consists of diaphysis (shaft), metaphysis (growing region), and epiphysis (ends of bone).",
     marks: 2,
-    image: "/assets/images/q13.jpg",
-    pdfUrl: "/assets/pdfs/q13.pdf",
+    image: "/assets/images/Q13. Parts of long bone.jpg",
+    pdfUrl: "/assets/pdfs/2-Number-Questions/Q13. Parts of long bone..pdf",
     tags: ["osteology", "bone"],
     region: "general",
     difficulty: "basic"
@@ -174,8 +174,8 @@ window.anatomyQuestions = [
     content:
       "Superficial peroneal nerve supplies peroneus longus and peroneus brevis muscles which evert the foot.",
     marks: 2,
-    image: "/assets/images/q14.jpg",
-    pdfUrl: "/assets/pdfs/q14.pdf",
+    image: "/assets/images/Q14. Muscles supplied by superficial peroneal nerve.jpg",
+    pdfUrl: "/assets/pdfs/2-Number-Questions/Q14. Muscles supplied by superficial peroneal nerve..pdf",
     tags: ["nerve", "leg"],
     region: "lowerlimb",
     difficulty: "basic"
@@ -187,8 +187,8 @@ window.anatomyQuestions = [
     content:
       "Femoral triangle is bounded superiorly by inguinal ligament, laterally by sartorius, and medially by adductor longus muscle.",
     marks: 2,
-    image: "/assets/images/q15.jpg",
-    pdfUrl: "/assets/pdfs/q15.pdf",
+    image: "/assets/images/Q15. Boundaries of femoral triangle.jpg",
+    pdfUrl: "/assets/pdfs/2-Number-Questions/Q15. Boundaries of femoral triangle..pdf",
     tags: ["thigh", "femoral triangle"],
     region: "lowerlimb",
     difficulty: "basic"
@@ -200,8 +200,8 @@ window.anatomyQuestions = [
     content:
       "Third layer of sole consists of flexor hallucis brevis, adductor hallucis, and flexor digiti minimi muscles.",
     marks: 2,
-    image: "/assets/images/q16.jpg",
-    pdfUrl: "/assets/pdfs/q16.pdf",
+    image: "/assets/images/Q16. Muscles of third layer of sole.jpg",
+    pdfUrl: "/assets/pdfs/2-Number-Questions/Q16. Muscles of third layer of sole..pdf",
     tags: ["foot", "sole"],
     region: "lowerlimb",
     difficulty: "basic"
@@ -213,8 +213,8 @@ window.anatomyQuestions = [
     content:
       "Tubectomy is a surgical method of permanent female sterilization in which fallopian tubes are ligated.",
     marks: 2,
-    image: "/assets/images/q17.jpg",
-    pdfUrl: "/assets/pdfs/q17.pdf",
+    image: "/assets/images/Q17. Tubectomy.jpg",
+    pdfUrl: "/assets/pdfs/2-Number-Questions/Q17. Tubectomy..pdf",
     tags: ["reproductive", "surgery"],
     region: "pelvis",
     difficulty: "basic"
@@ -226,8 +226,8 @@ window.anatomyQuestions = [
     content:
       "Hind brain consists of pons, medulla oblongata, and cerebellum which control vital functions and coordination.",
     marks: 2,
-    image: "/assets/images/q18.jpg",
-    pdfUrl: "/assets/pdfs/q18.pdf",
+    image: "/assets/images/Q18. Parts of hind brain.jpg",
+    pdfUrl: "/assets/pdfs/2-Number-Questions/Q18. Parts of hind brain.pdf",
     tags: ["brain", "hindbrain"],
     region: "neuroanatomy",
     difficulty: "basic"
@@ -239,8 +239,8 @@ window.anatomyQuestions = [
     content:
       "Cubital fossa contains biceps tendon, brachial artery, median nerve, and radial nerve.",
     marks: 2,
-    image: "/assets/images/q19.jpg",
-    pdfUrl: "/assets/pdfs/q19.pdf",
+    image: "/assets/images/Q19. Contents of cubital fossa.jpg",
+    pdfUrl: "/assets/pdfs/2-Number-Questions/Q19. Contents of cubital fossa.pdf",
     tags: ["cubital fossa", "contents"],
     region: "upperlimb",
     difficulty: "basic"
@@ -252,8 +252,8 @@ window.anatomyQuestions = [
     content:
       "Developing long bone shows primary ossification center in diaphysis and secondary ossification centers in epiphysis.",
     marks: 2,
-    image: "/assets/images/q20.jpg",
-    pdfUrl: "/assets/pdfs/q20.pdf",
+    image: "/assets/images/Q20. Parts of developing long bone.jpg",
+    pdfUrl: "/assets/pdfs/2-Number-Questions/Q20. Parts of developing long bone.pdf",
     tags: ["ossification", "bone"],
     region: "general",
     difficulty: "basic"
@@ -265,8 +265,8 @@ window.anatomyQuestions = [
     content:
       "Cartilaginous joints are of two types: primary cartilaginous joints united by hyaline cartilage and secondary cartilaginous joints united by fibrocartilage.",
     marks: 2,
-    image: "/assets/images/q21.jpg",
-    pdfUrl: "/assets/pdfs/q21.pdf",
+    image: "/assets/images/Q21. Types of cartilaginous joints.jpg",
+    pdfUrl: "/assets/pdfs/2-Number-Questions/Q21. Types of cartilaginous joints.pdf",
     tags: ["joints", "cartilage"],
     region: "general",
     difficulty: "basic"
@@ -278,8 +278,8 @@ window.anatomyQuestions = [
     content:
       "Clavipectoral fascia is pierced by cephalic vein, thoracoacromial artery, lateral pectoral nerve, and lymphatics.",
     marks: 2,
-    image: "/assets/images/q22.jpg",
-    pdfUrl: "/assets/pdfs/q22.pdf",
+    image: "/assets/images/Q22. Structures piercing clavipectoral fascia.jpg",
+    pdfUrl: "/assets/pdfs/2-Number-Questions/Q22. Structures piercing clavipectoral fascia.pdf",
     tags: ["fascia", "axilla"],
     region: "upperlimb",
     difficulty: "basic"
@@ -291,8 +291,8 @@ window.anatomyQuestions = [
     content:
       "Scalp has five layers: skin, dense connective tissue, aponeurosis, loose areolar tissue, and pericranium.",
     marks: 2,
-    image: "/assets/images/q23.jpg",
-    pdfUrl: "/assets/pdfs/q23.pdf",
+    image: "/assets/images/Q23. Layers of scalp.jpg",
+    pdfUrl: "/assets/pdfs/2-Number-Questions/Q23. Layers of scalp.pdf",
     tags: ["scalp", "head"],
     region: "headneck",
     difficulty: "basic"
@@ -304,8 +304,8 @@ window.anatomyQuestions = [
     content:
       "Larynx has thyroid, cricoid, epiglottis, and paired arytenoid cartilages which support phonation.",
     marks: 2,
-    image: "/assets/images/q24.jpg",
-    pdfUrl: "/assets/pdfs/q24.pdf",
+    image: "/assets/images/Q24. Cartilages of larynx.jpg",
+    pdfUrl: "/assets/pdfs/2-Number-Questions/Q24. Cartilages of larynx.pdf",
     tags: ["larynx", "cartilage"],
     region: "headneck",
     difficulty: "basic"
@@ -317,8 +317,8 @@ window.anatomyQuestions = [
     content:
       "Posterior pituitary secretes oxytocin which causes uterine contraction and ADH which regulates water balance.",
     marks: 2,
-    image: "/assets/images/q25.jpg",
-    pdfUrl: "/assets/pdfs/q25.pdf",
+    image: "/assets/images/Q25. Hormones of posterior pituitary gland.jpg",
+    pdfUrl: "/assets/pdfs/2-Number-Questions/Q25. Hormones of posterior pituitary gland.pdf",
     tags: ["endocrine", "pituitary"],
     region: "neuroendocrine",
     difficulty: "basic"
