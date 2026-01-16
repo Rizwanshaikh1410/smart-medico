@@ -18,7 +18,7 @@ window.anatomyQuestions = [
     content:
       "Anterior compartment of arm consists of biceps brachii (elbow flexion and supination), brachialis (chief flexor of elbow), and coracobrachialis (flexion and adduction of shoulder).",
     marks: 2,
-    image: "/assets/images/q2.jpg",
+    image: "/assets/images/Q2. Muscles of anterior compartment of arm.jpg",
     pdfUrl: "/assets/pdfs/2-Number-Questions/Q2-Muscles of anterior compartment of arm..pdf",
     tags: ["upperlimb", "arm", "muscles"],
     region: "upperlimb",
