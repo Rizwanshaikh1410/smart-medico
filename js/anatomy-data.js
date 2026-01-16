@@ -31,7 +31,7 @@ window.anatomyQuestions = [
     content:
       "Cubital fossa is bounded laterally by brachioradialis, medially by pronator teres, and superiorly by a line joining medial and lateral epicondyles of humerus.",
     marks: 2,
-    image: "/assets/images/q3.jpg",
+    image: "/assets/images/Q3. Boundaries of cubital fossa.jpg",
     pdfUrl: "/assets/pdfs/2-Number-Questions/Q3-Boundaries of cubital fossa.pdf",
     tags: ["upperlimb", "cubital fossa", "elbow"],
     region: "upperlimb",
