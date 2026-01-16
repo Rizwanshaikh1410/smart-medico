@@ -44,7 +44,7 @@ window.anatomyQuestions = [
     content:
       "Lateral cord gives lateral pectoral nerve, musculocutaneous nerve, and lateral root of median nerve supplying anterior compartment of upper limb.",
     marks: 2,
-    image: "/assets/images/q4.jpg",
+    image: "/assets/images/Q4. Branches of lateral cord of brachial plexus.jpg",
     pdfUrl: "/assets/pdfs/2-Number-Questions/Q4-Branches of lateral cord of brachial plexus.pdf",
     tags: ["brachial plexus", "nerves"],
     region: "upperlimb",
