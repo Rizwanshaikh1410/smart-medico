@@ -3,14 +3,13 @@ window.anatomyQuestions = [
     // 15 Marks Questions
     {
         id: 1,
-        title: "Brachial Plexus: Formation and Branches",
-        content: "Describe in detail the formation of brachial plexus including roots, trunks, divisions, cords, and terminal branches. List all major branches with their root values, course, and muscles supplied. Include clinical correlations like Erb's palsy and Klumpke's palsy.",
-        marks: 15,
-        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        pdfUrl: "https://drive.google.com/file/d/1anatomy-brachial-plexus-15marks/view",
+        title: "Q1. Difference between voluntary and involuntary muscles",
+        content: "Voluntary muscle – Skeletal muscle under conscious control, supplied by somatic nerves.",
+        marks: 2,
+        image: "/assets/Images/Q1. Difference between voluntary and involuntary muscles.jpg",
+        pdfUrl: "https://drive.google.com/file/d/1HlIcAt6RzeKNQghxt9EpLqvucGu3cwTr/view?usp=drive_link",
         tags: ["upperlimb", "brachial plexus", "nerves", "musculocutaneous", "radial"],
-        region: "upperlimb",
-        difficulty: "high"
+        difficulty: "basic"
     },
     {
         id: 2,
