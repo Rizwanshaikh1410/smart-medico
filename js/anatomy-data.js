@@ -322,5 +322,245 @@ window.anatomyQuestions = [
     tags: ["endocrine", "pituitary"],
     region: "neuroendocrine",
     difficulty: "basic"
-  }
+  },
+  {
+  id: 26,
+  title: "Q26. Foramina of middle cranial fossa",
+  content:
+    "Middle cranial fossa foramina include optic canal, superior orbital fissure, foramen rotundum, foramen ovale, and foramen spinosum for passage of cranial nerves and vessels.",
+  marks: 2,
+  image: "/assets/images/Q26. Foramina of middle cranial fossa.jpg",
+  pdfUrl: "/assets/pdfs/2-Number-Questions/Q26. Foramina of middle cranial fossa.pdf",
+  tags: ["skull", "cranial fossa", "foramina"],
+  region: "headneck",
+  difficulty: "basic"
+},
+{
+  id: 27,
+  title: "Q27. Branches of abdominal aorta",
+  content:
+    "Abdominal aorta gives ventral branches (coeliac, superior and inferior mesenteric), lateral branches (renal, suprarenal, gonadal) and terminal branches (common iliac arteries).",
+  marks: 2,
+  image: "/assets/images/Q27. Branches of abdominal aorta.jpg",
+  pdfUrl: "/assets/pdfs/2-Number-Questions/Q27. Branches of abdominal aorta.pdf",
+  tags: ["abdomen", "aorta", "arteries"],
+  region: "abdomen",
+  difficulty: "basic"
+},
+{
+  id: 28,
+  title: "Q28. Muscles of thenar eminence",
+  content:
+    "Thenar eminence muscles include abductor pollicis brevis, flexor pollicis brevis and opponens pollicis which help in thumb movements.",
+  marks: 2,
+  image: "/assets/images/Q28. Muscles of thenar eminence.jpg",
+  pdfUrl: "/assets/pdfs/2-Number-Questions/Q28. Muscles of thenar eminence.pdf",
+  tags: ["hand", "thenar", "muscles"],
+  region: "upperlimb",
+  difficulty: "basic"
+},
+{
+  id: 29,
+  title: "Q29. Layers of scalp",
+  content:
+    "Scalp has five layers: skin, dense connective tissue, aponeurosis, loose areolar tissue and pericranium.",
+  marks: 2,
+  image: "/assets/images/Q29. Layers of scalp.jpg",
+  pdfUrl: "/assets/pdfs/2-Number-Questions/Q29. Layers of scalp.pdf",
+  tags: ["scalp", "layers"],
+  region: "headneck",
+  difficulty: "basic"
+},
+{
+  id: 30,
+  title: "Q30. Histology of small intestine",
+  content:
+    "Small intestine shows mucosa with villi, submucosa, muscularis externa and serosa which help in digestion and absorption.",
+  marks: 2,
+  image: "/assets/images/Q30. Histology of small intestine.jpg",
+  pdfUrl: "/assets/pdfs/2-Number-Questions/Q30. Histology of small intestine.pdf",
+  tags: ["histology", "intestine"],
+  region: "histology",
+  difficulty: "basic"
+},
+{
+  id: 31,
+  title: "Q31. Primary supports of uterus",
+  content:
+    "Primary supports of uterus include pelvic diaphragm and uterosacral ligaments which maintain uterine position.",
+  marks: 2,
+  image: "/assets/images/Q31. Primary supports of uterus.jpg",
+  pdfUrl: "/assets/pdfs/2-Number-Questions/Q31. Primary supports of uterus.pdf",
+  tags: ["uterus", "supports"],
+  region: "pelvis",
+  difficulty: "basic"
+},
+{
+  id: 32,
+  title: "Q32. Properties of muscles",
+  content:
+    "Muscles show properties of excitability, contractility, extensibility and elasticity.",
+  marks: 2,
+  image: "/assets/images/Q32. Properties of muscles.jpg",
+  pdfUrl: "/assets/pdfs/2-Number-Questions/Q32. Properties of muscles.pdf",
+  tags: ["muscle", "properties"],
+  region: "general",
+  difficulty: "basic"
+},
+{
+  id: 33,
+  title: "Q33. Sites of intramuscular injection",
+  content:
+    "Common intramuscular injection sites are deltoid muscle, gluteus medius and vastus lateralis.",
+  marks: 2,
+  image: "/assets/images/Q33. Sites of intramuscular injection.jpg",
+  pdfUrl: "/assets/pdfs/2-Number-Questions/Q33. Sites of intramuscular injection.pdf",
+  tags: ["injection", "muscles"],
+  region: "general",
+  difficulty: "basic"
+},
+{
+  id: 34,
+  title: "Q34. Branches of posterior cord of brachial plexus",
+  content:
+    "Posterior cord gives axillary nerve and radial nerve supplying extensor muscles of upper limb.",
+  marks: 2,
+  image: "/assets/images/Q34. Branches of posterior cord of brachial plexus.jpg",
+  pdfUrl: "/assets/pdfs/2-Number-Questions/Q34. Branches of posterior cord of brachial plexus.pdf",
+  tags: ["brachial plexus", "nerves"],
+  region: "upperlimb",
+  difficulty: "basic"
+},
+{
+  id: 35,
+  title: "Q35. Joints involved in inversion and eversion",
+  content:
+    "Inversion and eversion of foot occur mainly at subtalar and transverse tarsal joints.",
+  marks: 2,
+  image: "/assets/images/Q35. Joints involved in inversion and eversion.jpg",
+  pdfUrl: "/assets/pdfs/2-Number-Questions/Q35. Joints involved in inversion and eversion.pdf",
+  tags: ["foot", "joints"],
+  region: "lowerlimb",
+  difficulty: "basic"
+},
+{
+  id: 36,
+  title: "Q36. Special sense organs",
+  content:
+    "Special sense organs include eye for vision, ear for hearing and balance, nose for smell and tongue for taste.",
+  marks: 2,
+  image: "/assets/images/Q36. Special sense organs.jpg",
+  pdfUrl: "/assets/pdfs/2-Number-Questions/Q36. Special sense organs.pdf",
+  tags: ["sense organs"],
+  region: "general",
+  difficulty: "basic"
+},
+{
+  id: 37,
+  title: "Q37. Branches of anterior division of femoral nerve",
+  content:
+    "Anterior division of femoral nerve gives muscular branches supplying muscles of anterior thigh.",
+  marks: 2,
+  image: "/assets/images/Q37. Branches of anterior division of femoral nerve.jpg",
+  pdfUrl: "/assets/pdfs/2-Number-Questions/Q37. Branches of anterior division of femoral nerve.pdf",
+  tags: ["femoral nerve"],
+  region: "lowerlimb",
+  difficulty: "basic"
+},
+{
+  id: 38,
+  title: "Q38. Nerve and blood supply of gluteus maximus",
+  content:
+    "Gluteus maximus is supplied by inferior gluteal nerve and inferior gluteal artery.",
+  marks: 2,
+  image: "/assets/images/Q38. Nerve and blood supply of gluteus maximus.jpg",
+  pdfUrl: "/assets/pdfs/2-Number-Questions/Q38. Nerve and blood supply of gluteus maximus.pdf",
+  tags: ["gluteal region"],
+  region: "lowerlimb",
+  difficulty: "basic"
+},
+{
+  id: 39,
+  title: "Q39. Constrictions of oesophagus",
+  content:
+    "Oesophagus shows constrictions at cricopharyngeal level, broncho-aortic crossing and diaphragmatic hiatus.",
+  marks: 2,
+  image: "/assets/images/Q39. Constrictions of oesophagus.jpg",
+  pdfUrl: "/assets/pdfs/2-Number-Questions/Q39. Constrictions of oesophagus.pdf",
+  tags: ["oesophagus"],
+  region: "thorax",
+  difficulty: "basic"
+},
+{
+  id: 40,
+  title: "Q40. Contents of spermatic cord",
+  content:
+    "Spermatic cord contains vas deferens, testicular artery, pampiniform plexus and genital branch of genitofemoral nerve.",
+  marks: 2,
+  image: "/assets/images/Q40. Contents of spermatic cord.jpg",
+  pdfUrl: "/assets/pdfs/2-Number-Questions/Q40. Contents of spermatic cord.pdf",
+  tags: ["spermatic cord"],
+  region: "abdomen",
+  difficulty: "basic"
+},
+{
+  id: 41,
+  title: "Q41. Branches of external carotid artery",
+  content:
+    "External carotid artery branches include facial, lingual and maxillary arteries supplying face and neck.",
+  marks: 2,
+  image: "/assets/images/Q41. Branches of external carotid artery.jpg",
+  pdfUrl: "/assets/pdfs/2-Number-Questions/Q41. Branches of external carotid artery.pdf",
+  tags: ["carotid artery"],
+  region: "headneck",
+  difficulty: "basic"
+},
+{
+  id: 42,
+  title: "Q42. Branches of arch of aorta",
+  content:
+    "Arch of aorta gives brachiocephalic trunk, left common carotid artery and left subclavian artery.",
+  marks: 2,
+  image: "/assets/images/Q42. Branches of arch of aorta.jpg",
+  pdfUrl: "/assets/pdfs/2-Number-Questions/Q42. Branches of arch of aorta.pdf",
+  tags: ["aorta"],
+  region: "thorax",
+  difficulty: "basic"
+},
+{
+  id: 43,
+  title: "Q43. Parts of brain stem",
+  content:
+    "Brain stem consists of midbrain, pons and medulla oblongata.",
+  marks: 2,
+  image: "/assets/images/Q43. Parts of brain stem.jpg",
+  pdfUrl: "/assets/pdfs/2-Number-Questions/Q43. Parts of brain stem.pdf",
+  tags: ["brain stem"],
+  region: "neuroanatomy",
+  difficulty: "basic"
+},
+{
+  id: 44,
+  title: "Q44. Parts of Fallopian tube",
+  content:
+    "Fallopian tube has infundibulum, ampulla and isthmus which transport ovum.",
+  marks: 2,
+  image: "/assets/images/Q44. Parts of Fallopian tube.jpg",
+  pdfUrl: "/assets/pdfs/2-Number-Questions/Q44. Parts of Fallopian tube.pdf",
+  tags: ["fallopian tube"],
+  region: "pelvis",
+  difficulty: "basic"
+},
+{
+  id: 45,
+  title: "Q45. Parts of parietal pleura",
+  content:
+    "Parietal pleura is divided into costal, diaphragmatic and mediastinal pleura.",
+  marks: 2,
+  image: "/assets/images/Q45. Parts of parietal pleura.jpg",
+  pdfUrl: "/assets/pdfs/2-Number-Questions/Q45. Parts of parietal pleura.pdf",
+  tags: ["pleura"],
+  region: "thorax",
+  difficulty: "basic"
+}
 ];
