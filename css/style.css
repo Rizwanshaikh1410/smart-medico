@@ -187,7 +187,9 @@ h1, h2, h3, h4, h5, h6 {
     flex: 1;
     max-width: 600px;
 }
-
+.hero-content h1{
+    color: var(--dark-color);
+}
 .hero-title {
     font-size: 3.5rem;
     color: var(--primary-color);
@@ -203,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-description {
     font-size: 1.1rem;
-    color: var(--text-light);
+    color: var(--text-color);
     margin-bottom: 2rem;
     line-height: 1.8;
 }
