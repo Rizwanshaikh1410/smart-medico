@@ -571,7 +571,7 @@ window.anatomyQuestions = [
     "Joints are classified into fibrous, cartilaginous and synovial joints with suitable examples. Fibrous joints include sutures of skull, cartilaginous joints include pubic symphysis and synovial joints include knee joint.",
   marks: 10,
   image: "/assets/Anatomy/10 Number Marks/img/Q1. Classify joints with one example of each type.jfif",
-  pdfUrl: "/assets/Anatomy/10 Number Marks/Answers/Q1 – Classify joints with one example of each type.pdf",
+  pdfUrl: "/assets/Anatomy/10 Number Marks/Answers/Q1 – Classify joints with one example of each type..pdf",
   tags: ["joints", "classification"],
   region: "general",
   difficulty: "basic"
