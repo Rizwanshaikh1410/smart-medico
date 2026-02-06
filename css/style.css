@@ -625,6 +625,10 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.7;
 }
 
+.footer-links {
+    text-align: center;
+}
+
 .footer-links h3,
 .footer-contact h3 {
     color: white;
@@ -635,11 +639,13 @@ h1, h2, h3, h4, h5, h6 {
 .footer-links ul,
 .footer-contact ul {
     list-style: none;
+    padding: 0;
 }
 
 .footer-links li,
 .footer-contact li {
     margin-bottom: 0.8rem;
+    text-align: center;
 }
 
 .footer-links a {
