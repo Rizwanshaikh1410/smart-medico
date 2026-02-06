@@ -562,5 +562,258 @@ window.anatomyQuestions = [
   tags: ["pleura"],
   region: "thorax",
   difficulty: "basic"
+},
+// 10 Marks Question Anatomy
+{
+  id: 46,
+  title: "Q1. Classify joints with one example of each type",
+  content:
+    "Joints are classified into fibrous, cartilaginous and synovial joints with suitable examples. Fibrous joints include sutures of skull, cartilaginous joints include pubic symphysis and synovial joints include knee joint.",
+  marks: 10,
+  image: "/assets/Anatomy/10 Number Marks/img/Q1. Classify joints with one example of each type.jfif",
+  pdfUrl: "/assets/Anatomy/10 Number Marks/Answers/Q1 – Classify joints with one example of each type.pdf",
+  tags: ["joints", "classification"],
+  region: "general",
+  difficulty: "basic"
+},
+{
+  id: 47,
+  title: "Q2. Boundaries and contents of femoral triangle",
+  content:
+    "Femoral triangle is a triangular space in upper thigh. It is bounded by inguinal ligament, sartorius and adductor longus and contains femoral nerve, artery, vein and femoral canal.",
+  marks: 10,
+  image: "/assets/Anatomy/10 Number Marks/img/Q2-Boundaries and contents of femoral triangle.png",
+  pdfUrl: "/assets/Anatomy/10 Number Marks/Answers/Q2 – Boundaries and contents of femoral triangle..pdf",
+  tags: ["femoral triangle", "thigh"],
+  region: "lowerlimb",
+  difficulty: "basic"
+},
+{
+  id: 48,
+  title: "Q3. Intercostal muscles",
+  content:
+    "Intercostal muscles include external, internal and innermost intercostals. They assist in respiration by elevating and depressing ribs.",
+  marks: 10,
+  image: "/assets/Anatomy/10 Number Marks/img/Q3-Intercostal muscles.png",
+  pdfUrl: "/assets/Anatomy/10 Number Marks/Answers/Q3 – Intercostal muscles..pdf",
+  tags: ["intercostal", "muscles"],
+  region: "thorax",
+  difficulty: "basic"
+},
+{
+  id: 49,
+  title: "Q4. Relationship of medial surface of kidney",
+  content:
+    "Medial surface of kidney shows hilum and is related to renal vessels, pelvis, aorta on left side and inferior vena cava on right side.",
+  marks: 10,
+  image: "/assets/Anatomy/10 Number Marks/img/Q4 – Relationship of medial surface of kidney.png",
+  pdfUrl: "/assets/Anatomy/10 Number Marks/Answers/Q4 – Relationship of medial surface of kidney.pdf",
+  tags: ["kidney", "relations"],
+  region: "abdomen",
+  difficulty: "basic"
+},
+{
+  id: 50,
+  title: "Q5. Stomach with blood supply and posterior relations",
+  content:
+    "Stomach is supplied by branches of coeliac trunk and its posterior relations include pancreas, spleen, left kidney and diaphragm.",
+  marks: 10,
+  image: "/assets/Anatomy/10 Number Marks/img/Q5 – Stomach with blood supply and posterior relations..png",
+  pdfUrl: "/assets/Anatomy/10 Number Marks/Answers/Q5 – Stomach with blood supply and posterior relations.pdf",
+  tags: ["stomach", "blood supply"],
+  region: "abdomen",
+  difficulty: "basic"
+},
+{
+  id: 51,
+  title: "Q6. Muscles of anterior compartment of leg",
+  content:
+    "Anterior compartment of leg contains tibialis anterior, extensor hallucis longus, extensor digitorum longus and peroneus tertius.",
+  marks: 10,
+  image: "/assets/Anatomy/10 Number Marks/img/Q6 – Muscles of anterior compartment of leg.jpg",
+  pdfUrl: "/assets/Anatomy/10 Number Marks/Answers/Q6 – Muscles of anterior compartment of leg.pdf",
+  tags: ["leg", "muscles"],
+  region: "lowerlimb",
+  difficulty: "basic"
+},
+{
+  id: 52,
+  title: "Q7. Posterior triangle of neck",
+  content:
+    "Posterior triangle of neck is bounded by sternocleidomastoid, trapezius and clavicle and contains important nerves and vessels.",
+  marks: 10,
+  image: "/assets/Anatomy/10 Number Marks/img/Q7 – Posterior triangle of neck..jpg",
+  pdfUrl: "/assets/Anatomy/10 Number Marks/Answers/Q7 – Posterior triangle of neck.pdf",
+  tags: ["neck", "triangle"],
+  region: "headneck",
+  difficulty: "basic"
+},
+{
+  id: 53,
+  title: "Q8. Posterior triangle of neck – boundaries and contents",
+  content:
+    "Posterior triangle is described with its boundaries, roof, floor and contents including spinal accessory nerve and brachial plexus.",
+  marks: 10,
+  image: "/assets/Anatomy/10 Number Marks/img/Q8 – Posterior triangle of neck – boundaries and contents..jpg",
+  pdfUrl: "/assets/Anatomy/10 Number Marks/Answers/Q8 – Posterior triangle of neck – boundaries and contents.pdf",
+  tags: ["posterior triangle"],
+  region: "headneck",
+  difficulty: "basic"
+},
+{
+  id: 54,
+  title: "Q9. Brachial plexus with applied aspect",
+  content:
+    "Brachial plexus is formed by ventral rami of C5–T1 and supplies upper limb. Injuries cause Erb’s and Klumpke’s palsy.",
+  marks: 10,
+  image: "/assets/Anatomy/10 Number Marks/img/Q9 – Brachial plexus with applied aspect..jpg",
+  pdfUrl: "/assets/Anatomy/10 Number Marks/Answers/Q9 – Brachial plexus with applied aspect.pdf",
+  tags: ["brachial plexus"],
+  region: "upperlimb",
+  difficulty: "medium"
+},
+{
+  id: 55,
+  title: "Q10. Hamstring muscles",
+  content:
+    "Hamstring muscles include semitendinosus, semimembranosus and long head of biceps femoris.",
+  marks: 10,
+  image: "/assets/Anatomy/10 Number Marks/img/Q10 – Hamstring muscles..jpg",
+  pdfUrl: "/assets/Anatomy/10 Number Marks/Answers/Q10 – Hamstring muscles.pdf",
+  tags: ["hamstring"],
+  region: "lowerlimb",
+  difficulty: "basic"
+},
+{
+  id: 56,
+  title: "Q11. Knee joint",
+  content:
+    "Knee joint is a synovial hinge joint with ligaments, menisci and movements including flexion and extension.",
+  marks: 10,
+  image: "/assets/Anatomy/10 Number Marks/img/Q11 – Knee joint..jpg",
+  pdfUrl: "/assets/Anatomy/10 Number Marks/Answers/Q11 – Knee joint.pdf",
+  tags: ["knee joint"],
+  region: "lowerlimb",
+  difficulty: "medium"
+},
+{
+  id: 57,
+  title: "Q12. Supports of uterus",
+  content:
+    "Supports of uterus include pelvic diaphragm, uterosacral ligaments and round ligaments.",
+  marks: 10,
+  image: "/assets/Anatomy/10 Number Marks/img/Q12 – Supports of uterus..jpg",
+  pdfUrl: "/assets/Anatomy/10 Number Marks/Answers/Q12 – Supports of uterus.pdf",
+  tags: ["uterus"],
+  region: "pelvis",
+  difficulty: "basic"
+},
+{
+  id: 58,
+  title: "Q13. Cubital fossa",
+  content:
+    "Cubital fossa is a triangular depression in front of elbow containing brachial artery and median nerve.",
+  marks: 10,
+  image: "/assets/Anatomy/10 Number Marks/img/Q13 – Cubital fossa..jpg",
+  pdfUrl: "/assets/Anatomy/10 Number Marks/Answers/Q13 – Cubital fossa.pdf",
+  tags: ["cubital fossa"],
+  region: "upperlimb",
+  difficulty: "basic"
+},
+{
+  id: 59,
+  title: "Q14. Bronchopulmonary segments of lung",
+  content:
+    "Bronchopulmonary segments are functionally independent units of lung supplied by segmental bronchi.",
+  marks: 10,
+  image: "/assets/Anatomy/10 Number Marks/img/Q14 – Bronchopulmonary segments of lungs..jpg",
+  pdfUrl: "/assets/Anatomy/10 Number Marks/Answers/Q14 – Bronchopulmonary segments of lungs.pdf",
+  tags: ["lung", "segments"],
+  region: "thorax",
+  difficulty: "medium"
+},
+{
+  id: 60,
+  title: "Q15. Ligaments of knee joint",
+  content:
+    "Knee joint ligaments include cruciate, collateral and capsular ligaments providing stability.",
+  marks: 10,
+  image: "/assets/Anatomy/10 Number Marks/img/Q15 – Ligaments of knee joint..jpg",
+  pdfUrl: "/assets/Anatomy/10 Number Marks/Answers/Q15 – Ligaments of knee joint.pdf",
+  tags: ["knee ligaments"],
+  region: "lowerlimb",
+  difficulty: "basic"
+},
+{
+  id: 61,
+  title: "Q16. Gluteus medius and minimus muscle",
+  content:
+    "Gluteus medius and minimus are abductors of hip and stabilize pelvis during walking.",
+  marks: 10,
+  image: "/assets/Anatomy/10 Number Marks/img/Q16 – Gluteus medius and minimus muscle..jpg",
+  pdfUrl: "/assets/Anatomy/10 Number Marks/Answers/Q16 – Gluteus medius and minimus muscle.pdf",
+  tags: ["gluteal muscles"],
+  region: "lowerlimb",
+  difficulty: "basic"
+},
+{
+  id: 62,
+  title: "Q17. Shoulder joint",
+  content:
+    "Shoulder joint is a ball and socket synovial joint allowing wide range of movements.",
+  marks: 10,
+  image: "/assets/Anatomy/10 Number Marks/img/Q17 – Shoulder joint..jpg",
+  pdfUrl: "/assets/Anatomy/10 Number Marks/Answers/Q17 – Shoulder joint.pdf",
+  tags: ["shoulder joint"],
+  region: "upperlimb",
+  difficulty: "medium"
+},
+{
+  id: 63,
+  title: "Q18. Femoral triangle – boundaries, contents and applied anatomy",
+  content:
+    "Femoral triangle is described with its boundaries, contents and applied anatomy including femoral hernia.",
+  marks: 10,
+  image: "/assets/Anatomy/10 Number Marks/img/Q18 – Femoral triangle – boundaries, contents and applied anatomy..jpg",
+  pdfUrl: "/assets/Anatomy/10 Number Marks/Answers/Q18 – Femoral triangle – boundaries, contents and applied anatomy.pdf",
+  tags: ["femoral triangle"],
+  region: "lowerlimb",
+  difficulty: "medium"
+},
+{
+  id: 64,
+  title: "Q19. Bronchopulmonary segments of right lung",
+  content:
+    "Right lung has ten bronchopulmonary segments supplied by segmental bronchi.",
+  marks: 10,
+  image: "/assets/Anatomy/10 Number Marks/img/Q19 – Bronchopulmonary segments of right lung..jpg",
+  pdfUrl: "/assets/Anatomy/10 Number Marks/Answers/Q19 – Bronchopulmonary segments of right lung.pdf",
+  tags: ["right lung"],
+  region: "thorax",
+  difficulty: "medium"
+},
+{
+  id: 65,
+  title: "Q20. Tongue – parts and innervation",
+  content:
+    "Tongue is divided into anterior and posterior parts with motor and sensory innervation by cranial nerves.",
+  marks: 10,
+  image: "/assets/Anatomy/10 Number Marks/img/Q20 – Tongue – parts and innervation..jpg",
+  pdfUrl: "/assets/Anatomy/10 Number Marks/Answers/Q20 – Tongue – parts and innervation.pdf",
+  tags: ["tongue", "innervation"],
+  region: "headneck",
+  difficulty: "medium"
+},
+{
+  id: 66,
+  title: "Q21. Blood supply and lymphatic drainage of stomach",
+  content:
+    "Stomach blood supply is from branches of coeliac trunk and lymph drains into celiac lymph nodes.",
+  marks: 10,
+  image: "/assets/Anatomy/10 Number Marks/img/Q21 – Blood supply and lymphatic drainage of stomach..jpg",
+  pdfUrl: "/assets/Anatomy/10 Number Marks/Answers/Q21 – Blood supply and lymphatic drainage of stomach.pdf",
+  tags: ["stomach", "blood supply"],
+  region: "abdomen",
+  difficulty: "medium"
 }
 ];
